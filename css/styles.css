@@ -9,7 +9,7 @@
 }
 
 #header {
-	background-color: #BDC3C7;
+	margin-top: 0.5vw;
 	width: 100%;
 	height: 100vh;
 }
@@ -40,7 +40,8 @@
 }
 
 body {
-  background: #e2e1e0;
+  background-image: url("background2.jpg");
+  background-size: cover;
   text-align: center;
 }
 
@@ -70,14 +71,79 @@ p {
 	font-weight: 300;
 }
 
-.card2 {
+.card4 {
   background: #ECF0F1;
   border-radius: 2px;
   display: inline-block;
   height: 22vw;
   margin: 1rem;
   position: relative;
-  width: 22vw;
+  width: 45vw;
+}
+
+.card4img {
+	float: left;
+	height: 22vw;
+	width: 20vw;
+	border-radius: 2px;
+}
+
+#c42 {
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	width: 
+}
+
+#c41 {
+	float: left;
+	display: inline-block;
+}
+
+.card4 p {
+	font-size: 3vw;
+	font-weight: 300;
+	font-family: 'Muli', sans-serif;
+}
+
+.cRedirect {
+	display: block;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+
+.card3 {
+  background: #ECF0F1;
+  border-radius: 2px;
+  display: inline-block;
+  height: 22vw;
+  margin: 1rem;
+  position: relative;
+  width: 45vw;
+}
+
+.card3 p {
+	font-size: 1.6vw;
+	font-weight: 400;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#card3img {
+	width: 45vw;
+	height: 17vw;
+	border-radius: 2px;
+}
+
+.card2 {
+  background: #ECF0F1;
+  border-radius: 2px;
+  display: inline-block;
+  height: 5vw;
+  margin: 1vw;
+  position: relative;
+  width: 5vw;
 }
 
 .card1 {
@@ -85,7 +151,7 @@ p {
   border-radius: 2px;
   display: inline-block;
   height: 5vw;
-  margin: 1rem;
+  margin: 1vw;
   position: relative;
   width: 45vw;
 }
